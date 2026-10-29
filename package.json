@@ -15,8 +15,10 @@
     "*.json"
   ],
   "scripts": {
-    "clean": "rm -rf .turbo"
+    "clean": "rm -rf .turbo",
+    "test": "node --test tests/configs.test.mjs"
   },
   "author": "jasloe",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {}
 }
